@@ -7,9 +7,9 @@ const Resume = () => {
       <p>Link to download my resume and a list of my proficiencies.</p>
       <a href="/path-to-resume.pdf" download>Download Resume</a>
       <ul>
-        <li>Proficiency 1</li>
-        <li>Proficiency 2</li>
-        <li>Proficiency 3</li>
+        <li>JavaScript</li>
+        <li>Back-End with postgres and Mongo</li>
+        <li>Front-End with React</li>
       </ul>
     </div>
   );

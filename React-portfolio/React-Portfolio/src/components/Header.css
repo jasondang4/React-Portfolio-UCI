@@ -2,14 +2,14 @@
 .App header {
     background-color: #2C3E50; /* Dark blue background */
     padding: 16px 40px; /* More padding for better spacing */
-    display: flex;
+    display: absolute;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Subtle shadow for depth */
   }
   
   nav {
-    display: flex;
+    /* display: flex; */
     align-items: center;
   }
   
