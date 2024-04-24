@@ -19,21 +19,25 @@ const Portfolio = () => {
     {
         title: "Command-line-README-Generator-UCI",
         description: "This challenge assignment tasked me to create a command-line that generates a professional README. In doing this challenge I learned how to properly use Node and the uses it has in coding. Furhtermore, I was able to learn how it can easiy be integrated into what I have already learned.",
+        imageUrl: "/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg",
         repoUrl: "https://github.com/jasondang4/Command-line-README-Generator-UCI"
       },
       {
         title: "JS-Payroll-Employee-Tracker-UCI",
         description: "This challenge was to create a payroll tracker that allows teh user to interact with the application and input multiple people, along with their full names, salary, and even calculate the average salaray between the listed people.",
+        imageUrl: "/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg",
         repoUrl: "https://github.com/jasondang4/JS-Payroll-Employee-Tracker-UCI"
       },
       {
         title: "Web-API-Challenge-Personal-Blog-UCI",
         description: "In this challenge I was tasked with making a personal Blog website from scratch using only idex.html, styles.css, and script.js. Here you will be presented with a fully fucntioning website that allows you to create a blog with the content of username, title, and content. Furthermore there is a button that allows you to toggle between light and dark mode. Addtionally, all blogs that are created will be saved and then presented in a different page called 'Blog Posts' where you can view all previously created Blogs with the entered content. There is alos a 'back' button that will take you back to the main page to enter more blogs.",
+        imageUrl: "/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg",
         repoUrl: "https://github.com/jasondang4/Web-API-Challenge-Personal-Blog-UCI"
       },
       {
         title: "E-Commerce-Back-End-UCI",
         description: "I was tasked to create the back end of a E-commerce site.",
+        imageUrl: "/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg",
         repoUrl: "https://github.com/jasondang4/E-Commerce-Back-End-UCI"
       },
   ];
