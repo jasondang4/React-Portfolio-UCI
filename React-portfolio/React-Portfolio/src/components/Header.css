@@ -1,5 +1,5 @@
 /* Header.css */
-header {
+.App header {
     background-color: #2C3E50; /* Dark blue background */
     padding: 16px 40px; /* More padding for better spacing */
     display: flex;

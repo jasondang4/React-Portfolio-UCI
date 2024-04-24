@@ -1,0 +1,50 @@
+/* Portfolio.css */
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #2C3E50; /* Same dark blue as the header */
+    color: #ECF0F1; /* Light gray text color */
+}
+
+.portfolio-item {
+    border: 1px solid #34495E; /* Darker shade for the border */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Shadow for depth */
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    background-color: #34495E; /* Slightly lighter than the background for contrast */
+}
+
+.portfolio-item:hover {
+    transform: scale(1.03); /* Subtle grow effect on hover */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3); /* Enhanced shadow on hover */
+}
+
+.portfolio-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Ensures images fit well */
+    border-top-left-radius: 8px; /* Rounded corners on the top left */
+    border-top-right-radius: 8px; /* Rounded corners on the top right */
+}
+
+.portfolio-description {
+    padding: 15px;
+    text-align: center;
+}
+
+.portfolio-link {
+    display: block;
+    text-decoration: none;
+    color: #F39C12; /* Orange color for links */
+    margin-top: 10px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.portfolio-link:hover {
+    color: #ECF0F1; /* Light gray on hover for contrast */
+}
