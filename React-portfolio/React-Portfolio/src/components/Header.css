@@ -1,0 +1,41 @@
+/* Header.css */
+header {
+    background-color: #2C3E50; /* Dark blue background */
+    padding: 16px 40px; /* More padding for better spacing */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Subtle shadow for depth */
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav a {
+    margin-right: 25px; /* More space between links */
+    text-decoration: none;
+    color: #ECF0F1; /* Light gray color for text */
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  nav a.active, nav a:hover {
+    color: #F39C12; /* Highlight color on hover and for active link */
+    font-weight: 600;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    header {
+      padding: 10px 20px; /* Adjust padding on smaller screens */
+    }
+  
+    nav a {
+      margin-right: 10px; /* Less space between links on small screens */
+      font-size: 14px; /* Smaller font size on mobile */
+    }
+  }
+  
